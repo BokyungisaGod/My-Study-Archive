@@ -26,4 +26,10 @@
         - **비추론 모델**(GPT-4o)과 비교했을 때: 성능이 좋음
         - **추론 모델**(OpenAI o1, o3-mini)과 비교했을 때: 일반 지식과 창의적 작업에서는 더 좋지만, 논리적 추론과 복잡한 문제 해결에서는 떨어짐
       </details>
-</details>
+
+- 🧑🏻‍💻 [ANTHROPIC] [Claude 3.7 Sonnet and Claude Code](https://www.anthropic.com/news/claude-3-7-sonnet)
+    - **Claude 3.7 Sonnet**: 빠른 응답과 심층적 사고(step-by-step thinking)를 결합한 하이브리드 추론 모델로, API를 통해 thinking time 조절 가능
+    - SWE-bench, TAU-bench에서 최고 성능 기록(코드 이해/수정/테스트 자동화 능력 강화)
+    - **Claude Code** 출시: 코드 검색, 편집, 테스트 실행, GitHub 커밋/푸시 가능, 대규모 리팩토링 및 디버깅 지원
+    - API 활용: 모델이 사고에 사용할 토큰 수(N)를 직접 설정하여 속도/비용/정확도 간 최적화
+ </details>
