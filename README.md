@@ -32,4 +32,11 @@
     - SWE-bench, TAU-bench에서 최고 성능 기록(코드 이해/수정/테스트 자동화 능력 강화)
     - **Claude Code** 출시: 코드 검색, 편집, 테스트 실행, GitHub 커밋/푸시 가능, 대규모 리팩토링 및 디버깅 지원
     - API 활용: 모델이 사고에 사용할 토큰 수(N)를 직접 설정하여 속도/비용/정확도 간 최적화
+
+- 🧑🏻‍💻 [langgenius] [dify](https://github.com/langgenius/dify/releases/tag/1.0.0)
+    - **Dify v1.0.0**출시: AI 애플리케이션 확장을 위한 플러그인 시스템 도입
+    - 미니맵의 팬 및 줌 기능, 통합 추론 모델, Docker SSRF 설정 개선, HNSW 벡터 색인 등
+    - `.difypkg` 포맷 지원, 워크플로우 에이전트 노드 추가로 사용자 정의 기능 강화
+    - Docker 배포 → `docker-compose.yaml`
+    - **Dify 마켓플레이스** 출시, 플러그인 공유 및 다운로드 가능
  </details>
