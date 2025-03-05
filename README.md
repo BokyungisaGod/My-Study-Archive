@@ -39,4 +39,11 @@
     - `.difypkg` 포맷 지원, 워크플로우 에이전트 노드 추가로 사용자 정의 기능 강화
     - Docker 배포 → `docker-compose.yaml`
     - **Dify 마켓플레이스** 출시, 플러그인 공유 및 다운로드 가능
- </details>
+ 
+- 🧑🏻‍💻 [LandingAI] [Agentic Document Extraction](https://landing.ai/agentic-document-extraction)
+    - **Agentic Document Extraction**: 시각적 맥락을 활용하여 복잡한 문서(의료 서식, 재무 보고서 등)에서 데이터를 정확하게 추출하는 인공지능 기반 솔루션
+    - 표, 차트, 체크박스 등 다양한 시각적 요소를 정확하게 인식
+    - 시각적 근거를 제시 → 추출 결과의 신뢰성을 높임, 다양한 산업 분야(의료, 물류, 금융, 법률 등)에 적용 가능
+    - API를 통해 레이아웃 인식, 이미지 해석 등의 기능을 제공하여 효율적인 문서 처리 및 의사결정 지원을 가능하게 함
+    - [Test Link](https://va.landing.ai/demo/doc-extraction)
+</details>
