@@ -46,4 +46,12 @@
     - 시각적 근거를 제시 → 추출 결과의 신뢰성을 높임, 다양한 산업 분야(의료, 물류, 금융, 법률 등)에 적용 가능
     - API를 통해 레이아웃 인식, 이미지 해석 등의 기능을 제공하여 효율적인 문서 처리 및 의사결정 지원을 가능하게 함
     - [Test Link](https://va.landing.ai/demo/doc-extraction)
+
+- 🤗 [Qwen] [QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)
+    - **QwQ-32B**: 추론 능력을 갖춘 중간 규모의 언어 모델로, 기존 모델보다 어려운 문제 해결에 강점을 보임
+    - RoPE, SwiGLU, RMSNorm, QKV bias 적용된 Transformer 기반, 64층 구조와 32.5B 파라미터 보유
+    - 최대 131,072 토큰의 긴 컨텍스트 지원, Supervised Fine-tuning 및 RL 기반 후처리 수행
+    - 최적화된 성능을 위해 **온도(0.6), TopP(0.95), TopK(20~40) 설정** 및 특정 태그 활용 권장
+    - 배포 시 vLLM 사용 추천, 긴 컨텍스트 필요 시 `rope_scaling` 설정 추가 가능
+    - [블로그](https://qwenlm.github.io/blog/qwq-32b/)
 </details>
