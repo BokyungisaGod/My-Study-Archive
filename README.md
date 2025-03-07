@@ -54,4 +54,11 @@
     - 최적화된 성능을 위해 **온도(0.6), TopP(0.95), TopK(20~40) 설정** 및 특정 태그 활용 권장
     - 배포 시 vLLM 사용 추천, 긴 컨텍스트 필요 시 `rope_scaling` 설정 추가 가능
     - [블로그](https://qwenlm.github.io/blog/qwq-32b/)
+
+- 🤗 [dragonkue] [snowflake-arctic-embed-l-v2.0-ko](https://huggingface.co/dragonkue/snowflake-arctic-embed-l-v2.0-ko)
+    - **snowflake-arctic-embed-l-v2.0**: 한국어 검색 성능을 향상시키기 위해 추가 학습된 SentenceTransformer 모델
+    - 최대 토큰 길이 8192, 1024차원 임베딩을 생성하며 코사인 유사도를 사용하며 AI Hub의 다양한 한국어 기계독해 데이터로 학습됨
+    - MTEB 벤치마크에서 SOTA 성능을 기록, MIRACL, AutoRAGRetrieval 등 여러 한국어 검색 평가에서 우수한 성능을 보임
+    - 최대 토큰 길이가 1300개로 제한되어 있어 긴 문서 검색 시 한계가 있으며, 더 긴 문서는 gte-multilingual-base, KURE-v1 등의 모델 활용 권장
+
 </details>
