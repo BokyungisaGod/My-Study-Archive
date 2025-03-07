@@ -61,4 +61,10 @@
     - MTEB 벤치마크에서 SOTA 성능을 기록, MIRACL, AutoRAGRetrieval 등 여러 한국어 검색 평가에서 우수한 성능을 보임
     - 최대 토큰 길이가 1300개로 제한되어 있어 긴 문서 검색 시 한계가 있으며, 더 긴 문서는 gte-multilingual-base, KURE-v1 등의 모델 활용 권장
 
+- 🤗 [dnotitia] [DNA-R1](https://huggingface.co/dnotitia/DNA-R1)
+    - **DNA-R1**: Microsoft Phi-4 기반 한국어 최적화 모델로, DeepSeek-R1 방식의 강화학습을 적용하여 수학, 코딩, 논리적 사고에서 뛰어난 성능 발휘
+    - 한국어 비논리 데이터 → DeepSeek-R1 방식의 한국어 논리 데이터 → GRPO 강화학습을 통한 최적화 3단계 진행
+    - 14B 모델임에도 KMMLU, KoBEST, GSM8K 등의 벤치마크에서 대형 모델과 경쟁하는 높은 성능 기록
+    - 한국어 중심 CoT 추론, 자기 검증, 다단계 문제 해결, <think>, <answer> 태그 활용 가능
+
 </details>
