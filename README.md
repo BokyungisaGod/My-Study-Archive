@@ -67,4 +67,10 @@
     - 14B 모델임에도 KMMLU, KoBEST, GSM8K 등의 벤치마크에서 대형 모델과 경쟁하는 높은 성능 기록
     - 한국어 중심 CoT 추론, 자기 검증, 다단계 문제 해결, <think>, <answer> 태그 활용 가능
 
+- 📜 [HKUST(GZ)] [Atom of Thoughts for Markov LLM Test-Time Scaling](https://arxiv.org/pdf/2502.12018)
+    - **Atom of Thoughts (AOT)**: LLM의 추론 성능 향상을 위한 테스트 시간 확장 기법, 불필요한 과거 정보 처리 없이 순수한 추론에 계산 자원 집중
+    - 마르코프 프로세스와 유사한 메모리리스 전이 방식 사용 → 문제를 독립적인 atomic questions으로 분해 후 해결
+    - 질문을 Directed Acyclic Graph 로 표현하고, 독립적인 하위 질문으로 축소하는 과정을 반복하여 직접 해결 가능한 상태로 변환
+    - 장점: 기존 방법과 달리 history 축적 없이 현재 상태만 활용해 불필요한 연산 낭비 방지 및 추론 성능 극대화
+    - HotpotQA에서 GPT-4o-mini 적용 시 F1 80.6% 기록, o3-mini 대비 3.4%, DeepSeek-R1 대비 10.6% 향상
 </details>
