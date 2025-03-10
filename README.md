@@ -73,4 +73,15 @@
     - 질문을 Directed Acyclic Graph 로 표현하고, 독립적인 하위 질문으로 축소하는 과정을 반복하여 직접 해결 가능한 상태로 변환
     - 장점: 기존 방법과 달리 history 축적 없이 현재 상태만 활용해 불필요한 연산 낭비 방지 및 추론 성능 극대화
     - HotpotQA에서 GPT-4o-mini 적용 시 F1 80.6% 기록, o3-mini 대비 3.4%, DeepSeek-R1 대비 10.6% 향상
+
+</details>
+<details>
+    <summary>2nd week</summary>
+    
+- 🧑🏻‍💻 [manus] [Leave it to Manus](https://manus.im/)
+    - Manus: 사고와 행동을 연결하는 범용 AI 에이전트, 다양한 작업을 자동화하여 결과 제공
+    - 여행 일정, 주식 분석, 교육 콘텐츠 제작 등 다양하게 활용 가능
+    - GAIA 벤치마크에서 최첨단(SOTA) 성능을 달성
+        - GAIA: AI 어시스턴트의 실제 문제 해결 능력을 평가하는 기준
+    - [프롬프트 보러가기](https://gist.github.com/jlia0/db0a9695b3ca7609c9b1a08dcbf872c9)
 </details>
