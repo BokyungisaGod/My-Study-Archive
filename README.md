@@ -84,4 +84,12 @@
     - GAIA 벤치마크에서 최첨단(SOTA) 성능을 달성
         - GAIA: AI 어시스턴트의 실제 문제 해결 능력을 평가하는 기준
     - [프롬프트 보러가기](https://gist.github.com/jlia0/db0a9695b3ca7609c9b1a08dcbf872c9)
+
+- 🧑🏻‍💻 [CURSOR] [Changelog - New updates and improvements](https://www.cursor.com/en/changelog)
+    - **Cursor**: VSCodium 기반 AI 코드 편집기, 페어 프로그래밍 최적화
+    - Cursor **0.47.x** 업데이트 → 안정성 및 성능 향상에 중점 → 기존 기능 개선 및 키보드 단축키 메뉴 추가, 베타 프로그램 조기 접근 기능 제공
+    - 코드 분석, 자동 수정, 코드베이스 이해도 향상, MCP 지원
+    - Agent 모드가 기본으로 설정되어 있음 → Chat, Composer, Agent를 통합한 AI 경험 제공, 웹 검색 기능이 추가되어 명령어 없이 최신 정보 검색 가능
+    - DVFS와 유사한 성능-전력 최적화 기능
+    - 원격 SSH, WSL 안정화, Dev Containers 지원, 자동 코드 적용
 </details>
