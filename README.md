@@ -92,4 +92,12 @@
     - Agent 모드가 기본으로 설정되어 있음 → Chat, Composer, Agent를 통합한 AI 경험 제공, 웹 검색 기능이 추가되어 명령어 없이 최신 정보 검색 가능
     - DVFS와 유사한 성능-전력 최적화 기능
     - 원격 SSH, WSL 안정화, Dev Containers 지원, 자동 코드 적용
+
+- 🧑🏻‍💻 [RekaAI] [reka-flash-3](https://huggingface.co/RekaAI/reka-flash-3)
+    - **Reka Flash 3**: 21B 규모의 범용 추론 모델, OpenAI o1-mini와 경쟁 가능, 낮은 지연 시간 및 온디바이스 배포에 적합
+    - 합성 및 공개 데이터로 지도 학습 후, 모델 및 규칙 기반 보상으로 RLOO 수행
+    - Llama 호환 형식으로 제공, Hugging Face 또는 vLLM을 통해 쉽게 배포 및 사용 가능, `cl100k_base` 토크나이저 사용
+    - 프롬프트 형식 → `<sep>` 또는 `<|endoftext|>`를 종료 신호로 사용, 다중 회차 대화에서는 이전 추론 내용을 생략하는 것 추천
+    - 영어에 최적화되었으나 다른 언어도 어느 정도 이해, 지식 집약적 작업에서는 웹 검색 활용 권장
+
 </details>
