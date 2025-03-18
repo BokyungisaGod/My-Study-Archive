@@ -99,5 +99,13 @@
     - Llama 호환 형식으로 제공, Hugging Face 또는 vLLM을 통해 쉽게 배포 및 사용 가능, `cl100k_base` 토크나이저 사용
     - 프롬프트 형식 → `<sep>` 또는 `<|endoftext|>`를 종료 신호로 사용, 다중 회차 대화에서는 이전 추론 내용을 생략하는 것 추천
     - 영어에 최적화되었으나 다른 언어도 어느 정도 이해, 지식 집약적 작업에서는 웹 검색 활용 권장
-
+</details>
+<details>
+    <summary>3nd week</summary>
+    
+- 🧑🏻‍💻 [Medium] [Atom of Thoughts: Better than Chain of Thoughts prompting](https://medium.com/data-science-in-your-pocket/atom-of-thoughts-better-than-chain-of-thoughts-prompting-4f4fee0bc312)
+    - **Atom of Thoughts(AoT)**: 복잡한 문제를 독립적인 하위 문제(Atom)로 나누어 해결하는 새로운 AI 프롬프트 기법
+    - **DAG(Directed Acyclic Graph)** 구조를 활용해 문제를 분해하고, 해결된 하위 문제를 합쳐 최종 답 도출
+    - 불필요한 정보 저장을 최소화하여 연산 효율 높임, 병렬적 문제 해결 가능
+    - CoT(Chain of Thought)와 비교 시, AoT는 독립적인 하위 문제를 병렬적으로 해결할 수 있어 다단계 추론에서 강점 가짐
 </details>
