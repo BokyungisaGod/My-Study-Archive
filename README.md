@@ -108,4 +108,9 @@
     - **DAG(Directed Acyclic Graph)** 구조를 활용해 문제를 분해하고, 해결된 하위 문제를 합쳐 최종 답 도출
     - 불필요한 정보 저장을 최소화하여 연산 효율 높임, 병렬적 문제 해결 가능
     - CoT(Chain of Thought)와 비교 시, AoT는 독립적인 하위 문제를 병렬적으로 해결할 수 있어 다단계 추론에서 강점 가짐
+ 
+- 🤗 [LGAI-EXAONE] [EXAONE-Deep-32B](https://huggingface.co/LGAI-EXAONE/EXAONE-Deep-32B)
+    - **EXAONE Deep**: LG AI 연구소가 개발한 2.4B~32B 규모의 매개변수를 가진 추론 특화 LLM
+    - MATH, AIME, CSAT 등 다양한 벤치마크에서 최상위 오픈모델과 경쟁 가능한 성능 기록
+    - TensorRT-LLM, vLLM, llama.cpp 등 다양한 프레임워크 지원, GGUF 형식의 양자화 모델 제공
 </details>
