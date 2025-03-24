@@ -117,4 +117,15 @@
 - 🧑🏻‍💻 [MCP HUB] [MCP Guide](https://v0-mcp-setup-guide.vercel.app/mcp-guide)
     - **클로드 MCP**: AI 시스템과 외부 도구 및 실시간 데이터 소스를 연결하는 개방형 표준 프로토콜
     - 'AI의 USB-C 포트' 역할, 데이터 검색, 작업 실행, API 통합을 원활하게 지원
+
+- 🧑🏻‍💻 MCP 서버 리스트
+    - [Smithery](https://smithery.ai/)
+    - [mcp-get registry](https://mcp-get.com/)
+    - [Glama](https://glama.ai/mcp/servers)
+    - [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers)
+    - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
+    - [Awesome MCP Servers](https://mcpservers.org/)
+    - [Discover MCP Servers](https://mcp.so/servers)
+    - [Model Context Protocol Server Directory](https://www.mcpserver.info/)
+
 </details>
