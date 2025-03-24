@@ -113,4 +113,8 @@
     - **EXAONE Deep**: LG AI 연구소가 개발한 2.4B~32B 규모의 매개변수를 가진 추론 특화 LLM
     - MATH, AIME, CSAT 등 다양한 벤치마크에서 최상위 오픈모델과 경쟁 가능한 성능 기록
     - TensorRT-LLM, vLLM, llama.cpp 등 다양한 프레임워크 지원, GGUF 형식의 양자화 모델 제공
+
+- 🧑🏻‍💻 [MCP HUB] [MCP Guide](https://v0-mcp-setup-guide.vercel.app/mcp-guide)
+    - **클로드 MCP**: AI 시스템과 외부 도구 및 실시간 데이터 소스를 연결하는 개방형 표준 프로토콜
+    - 'AI의 USB-C 포트' 역할, 데이터 검색, 작업 실행, API 통합을 원활하게 지원
 </details>
